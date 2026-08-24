@@ -1,0 +1,80 @@
+{
+  "environment": {
+    "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "results": [
+    {
+      "test": "A",
+      "engine": "pandas",
+      "files": "many",
+      "file_type": "csv",
+      "rows": 999991,
+      "seconds": 11.832226999999875,
+      "duration": "00:00:11.832"
+    },
+    {
+      "test": "B",
+      "engine": "polars",
+      "files": "many",
+      "file_type": "csv",
+      "rows": 999991,
+      "seconds": 0.5204258000003392,
+      "duration": "00:00:00.520"
+    },
+    {
+      "test": "C",
+      "engine": "pandas",
+      "files": "few",
+      "file_type": "csv",
+      "rows": 999989,
+      "seconds": 3.2940255999997134,
+      "duration": "00:00:03.294"
+    },
+    {
+      "test": "D",
+      "engine": "polars",
+      "files": "few",
+      "file_type": "csv",
+      "rows": 999989,
+      "seconds": 0.264780299999984,
+      "duration": "00:00:00.265"
+    },
+    {
+      "test": "E",
+      "engine": "pandas",
+      "files": "many",
+      "file_type": "parquet",
+      "rows": 999992,
+      "seconds": 9.48293139999987,
+      "duration": "00:00:09.483"
+    },
+    {
+      "test": "F",
+      "engine": "polars",
+      "files": "many",
+      "file_type": "parquet",
+      "rows": 999992,
+      "seconds": 0.26950940000006085,
+      "duration": "00:00:00.270"
+    },
+    {
+      "test": "G",
+      "engine": "pandas",
+      "files": "few",
+      "file_type": "parquet",
+      "rows": 999990,
+      "seconds": 1.7125232000003052,
+      "duration": "00:00:01.713"
+    },
+    {
+      "test": "H",
+      "engine": "polars",
+      "files": "few",
+      "file_type": "parquet",
+      "rows": 999990,
+      "seconds": 0.18582900000001246,
+      "duration": "00:00:00.186"
+    }
+  ]
+}

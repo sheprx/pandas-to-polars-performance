@@ -3,3 +3,5 @@ pandas
 polars
 pyarrow
 mimesis
+typing_extensions
+tqdm

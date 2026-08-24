@@ -1,0 +1,16 @@
+[project]
+name = "pandas-to-polars-performance"
+version = "0.1.0"
+description = "Compare pandas and Polars performance across CSV and Parquet datasets"
+requires-python = ">=3.11"
+dependencies = [
+    "mimesis",
+    "pandas",
+    "polars",
+    "pyarrow",
+    "tqdm",
+    "typing-extensions",
+]
+
+[tool.uv]
+package = false
